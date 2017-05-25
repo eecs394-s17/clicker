@@ -22,7 +22,7 @@ This allows some tests to run, but others fail with errors like this
 Update *Android Studio* and the emulator.
 
 Create at least one virtual device, and update the device name and OS level in
-[protractor-android.conf.js](blob/master/protractor-android.conf.js).
+[protractor-android.conf.js](protractor-android.conf.js).
 
 Install Appium and Appium Doctor, as necessary.
 
