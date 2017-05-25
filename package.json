@@ -1,6 +1,10 @@
 {
     "name": "Clicker",
-    "contributors": ["Chris Riesbeck", "Aleksandr Balakiriev", "Stephen Hazleton"],
+    "contributors": [
+        "Chris Riesbeck",
+        "Aleksandr Balakiriev",
+        "Stephen Hazleton"
+    ],
     "homepage": "https://github.com/eecs394-s17/clicker",
     "private": true,
     "scripts": {
