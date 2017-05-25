@@ -21,8 +21,7 @@ This allows some tests to run, but others fail with errors like this
 
 Update *Android Studio* and the emulator.
 
-Create at least one virtual device, and update the device name and OS level in
-[protractor-android.conf.js](protractor-android.conf.js).
+Create at least one virtual device.
 
 Install Appium and Appium Doctor, as necessary.
 
@@ -71,6 +70,13 @@ Now, add Android emulation.
 ionic platform add android
 ionic emulate android
 ```
+
+The emulator should appear with your app. Verify that it works.
+
+Edit the *capabilities* object in [protractor-android.conf.js](protractor-android.conf.js) to
+have the correct device name, platform version, AVD name, and full path
+to your Android `android-debug-apk`.  Shell shortcuts such as `~/` will not
+work.
 
 Use Appium Doctor to check your settings
 
