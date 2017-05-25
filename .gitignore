@@ -24,6 +24,8 @@ www/build/
 $RECYCLE.BIN/
 .io-config.json
 
+chromedriver
+
 # dynamic config files generated at build time
 config.xml
 config/config.ts

@@ -5,7 +5,7 @@ var removeButton = element.all(by.css('.button-outline-md-danger')).first();
 var firstClicker = element.all(by.className('clickerList')).first();
 describe('ClickerList', function () {
     beforeEach(function () {
-        browser.get('');
+      browser.get('');
     });
     it('should switch into clickers page from menu', function () {
         element(by.css('.bar-button-menutoggle')).click();

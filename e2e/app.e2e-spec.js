@@ -1,7 +1,7 @@
 import { browser, element, by } from 'protractor';
 describe('ClickerApp', function () {
     beforeEach(function () {
-        browser.get('');
+      browser.get('');
     });
     it('should have a title', function () {
         expect(browser.getTitle()).toEqual('Clickers');

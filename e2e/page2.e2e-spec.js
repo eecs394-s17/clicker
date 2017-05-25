@@ -2,7 +2,7 @@ import { browser, element, by } from 'protractor';
 var message = element(by.className('message'));
 describe('Page2', function () {
     beforeEach(function () {
-        browser.get('');
+      browser.get('');
     });
     it('should have correct text when Goodbye Ionic is selected', function () {
         element(by.css('.bar-button-menutoggle')).click().then(function () {
