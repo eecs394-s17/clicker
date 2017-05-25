@@ -23,14 +23,14 @@ Update *Android Studio* and the emulator.
 
 Create at least one virtual device.
 
-Install Appium and Appium Doctor, as necessary.
+Install Appium, Appium Doctor, and ChromeDriver, as necessary.
 
 ```bash
 npm install appium@latest -g 
 npm install appium-doctor -g
 ```
 
-With Appium 1.6.4 testing a Nexus with Android 7.1.1, I get the error
+With Appium 1.6.4 testing an emulation of a Nexus with Android 7.1.1, I get the error
 `Chrome version must be >= 55.0.2883.0`. To fix, I downloaded the latest
 ChromeDriver from [the download site](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 into */usr/local/bin* and pass the file path to Appium. See below.
@@ -75,8 +75,8 @@ The emulator should appear with your app. Verify that it works.
 
 Edit the *capabilities* object in [protractor-android.conf.js](protractor-android.conf.js) to
 have the correct device name, platform version, AVD name, and full path
-to your Android `android-debug-apk`.  Shell shortcuts such as `~/` will not
-work.
+to your Android `android-debug.apk` file. Shell shortcuts such as `~/` will not
+work here.
 
 Use Appium Doctor to check your settings
 
