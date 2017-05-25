@@ -1,7 +1,7 @@
 {
     "name": "Clicker",
-    "author": "Aleksandr Balakiriev",
-    "homepage": "https://github.com/balakirevs/clicker",
+    "contributors": ["Chris Riesbeck", "Aleksandr Balakiriev", "Stephen Hazleton"],
+    "homepage": "https://github.com/eecs394-s17/clicker",
     "private": true,
     "scripts": {
         "clean": "ionic-app-scripts clean",
