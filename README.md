@@ -6,9 +6,9 @@ For now, only Android testing is covered.
 
 Changes I've made so far to previous repo:
 
-- updated device info in *protractor-android.conf.js*
-- updated code in *protractor.conf.js* and *protractor-android.conf.js* to set  *SpecReporter*
-- added hack in *protractor-android.conf.js* to make `browser.get()` a no-op, to avoid opening a browser window when running on Android
+- Updated device info in *protractor-android.conf.js*
+- Updated code in *protractor.conf.js* and *protractor-android.conf.js* to set  *SpecReporter*
+- Added hack in *protractor-android.conf.js* to make `browser.get()` a no-op, to avoid opening a browser window when running on Android. See [this issue](https://github.com/lathonez/clicker/issues/122).
 
 This allows some tests to run, but others fail with errors like this
 
