@@ -78,6 +78,20 @@ have the correct device name, platform version, AVD name, and full path
 to your Android `android-debug.apk` file. Shell shortcuts such as `~/` will not
 work here.
 
+```bash
+  capabilities: {
+    browserName: '',
+    'appium-version': '1.6.4',
+    platformName: 'android',
+    platformVersion: '7.1.1',
+    deviceName: 'emulator-5554',
+    autoWebview: true,
+    avd: 'Nexus_5X_API_25',
+    nativeInstrumentsLib: true,
+    app: "/full/path/to/your/apk/android-debug.apk"
+  },
+```
+
 Use Appium Doctor to check your settings
 
 ```bash
